@@ -1,0 +1,41 @@
+h1 {
+    background-color: rgb(11, 165, 165);
+    color: #fff;
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 50px;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+    text-align: center;
+    float: left;
+}
+
+.fixed-header {
+    color: rgb(15, 14, 14);
+    float: left;
+}
+
+
+h2 {
+    clear: both;
+    color: rgb(11, 165, 165);
+    font-size: 35px; 
+    margin-left: 80px;
+    overflow: auto;
+   }
+
+img {
+    width: 200px; 
+    height: 200px;
+    margin-left: 80px;
+    float: left;
+   }
+
+.bio-details {
+    float: left;
+    font-size: 20px;
+}
+.fixed-footer{
+    clear: both;
+    bottom: 0;
+}
