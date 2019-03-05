@@ -1,41 +1,113 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: Georgia, Cambria, Times, 'Times New Roman';
+}
+
 h1 {
     background-color: rgb(11, 165, 165);
     color: #fff;
     width: 20%;
     margin-top: 0%;
-    margin-left: 50px;
-    padding-block-start: 30px;
-    padding-block-end: 30px;
+    margin-left: 120px;
+    padding-block-start: 25px;
+    padding-block-end: 25px;
     text-align: center;
-    float: left;
+    margin-bottom: 0%;
+    font: 30px;
 }
 
-.fixed-header {
-    color: rgb(15, 14, 14);
-    float: left;
+.header-line {
+    width:100%;
+    height:2px; 
+    background:rgb(211, 208, 208); 
+    margin-top: 0;
+    padding: 0;
+    }
+
+
+a {
+     text-decoration: none;
+     color: gray;
+ }
+
+nav { 
+    font-size: 20px;
+    position: absolute;
+    right: 130px;
+    top: 40px;
 }
 
 
+.boxed-details {
+    width:100%;
+    height:100%; 
+    margin-bottom: 0;
+    padding: 0;
+    }
+ .aboutme-line {
+        width:95%;
+        margin-left: 20px;
+        height:5px; 
+        background:rgb(211, 208, 208);  
+        margin-bottom: 0;
+        padding: 0;
+        }
+
+.boxed {
+        border: 1px solid grey ;
+        margin-right: 140px;
+        margin-left: 120px;
+        margin-top: 30px;
+        background: whitesmoke;
+      }
+      
 h2 {
-    clear: both;
+    
     color: rgb(11, 165, 165);
-    font-size: 35px; 
-    margin-left: 80px;
-    overflow: auto;
-   }
+    font-size : 35px; 
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
 
+.bio-image {
+    float: left;
+    padding: 20px;
+    border: 2px 2px black;
+}
 img {
     width: 200px; 
     height: 200px;
-    margin-left: 80px;
-    float: left;
-   }
 
-.bio-details {
-    float: left;
-    font-size: 20px;
 }
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-top:dimgray;
+    color: gray
+}
+
+hr {
+    width:100%; height:10px; 
+    background:rgb(11, 165, 165); 
+    margin-bottom: 0%;
+    padding: 0%;
+    }
+
 .fixed-footer{
     clear: both;
-    bottom: 0;
+
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background-color: gray;
+    color:whitesmoke;
+    position: relative;
+    bottom: 0%;
+    padding-top: 40px;
 }
+
