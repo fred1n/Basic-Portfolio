@@ -2,10 +2,14 @@ body {
     padding:0;
     margin:0;
     font-family: Georgia, Cambria, Times, 'Times New Roman';
+    background: url(../images/circles-light.png)
+    
 }
 
 h1 {
-    background-color: rgb(11, 165, 165);
+   /* background: white; */
+    background-color:#4aaaa5;
+    border:#cccccc;
     color: #fff;
     width: 20%;
     margin-top: 0%;
@@ -28,7 +32,7 @@ h1 {
 
 a {
      text-decoration: none;
-     color: gray;
+     color: #777777;
  }
 
 nav { 
@@ -45,30 +49,29 @@ nav {
     margin-bottom: 0;
     padding: 0;
     }
- .aboutme-line {
-        width:95%;
-        margin-left: 20px;
-        height:5px; 
-        background:rgb(211, 208, 208);  
-        margin-bottom: 0;
-        padding: 0;
-        }
+
+.aboutme-line {
+    width:95%;
+    margin-left: 20px;
+    height:3px; 
+    background:rgb(211, 208, 208);  
+    margin-bottom: 0;
+    padding: 0;
+    }
 
 .boxed {
-        border: 1px solid grey ;
-        margin-right: 140px;
-        margin-left: 120px;
-        margin-top: 30px;
-        background: whitesmoke;
-      }
+    border: 1px solid grey ;
+    margin-right: 140px;
+    margin-left: 120px;
+    margin-top: 30px;
+    background: whitesmoke;
+    }
       
 h2 {
-    
-    color: rgb(11, 165, 165);
+    color:#4aaaa5;
     font-size : 35px; 
     margin-left: 20px;
     margin-bottom: 10px;
-    
 }
 
 .bio-image {
@@ -76,19 +79,22 @@ h2 {
     padding: 20px;
     border: 2px 2px black;
 }
+
 img {
     width: 200px; 
     height: 200px;
-
+    margin-top:0%;
 }
 
 p {
     font-size: 20px;
+    margin-top:0%;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
-    border-top:dimgray;
-    color: gray
+    border-top:#dddddd;
+    color: #777777;
+    /* background-color: #ffffff; */
 }
 
 hr {
@@ -96,15 +102,16 @@ hr {
     background:rgb(11, 165, 165); 
     margin-bottom: 0%;
     padding: 0%;
+    border-bottom-style: none;
+
     }
 
 .fixed-footer{
     clear: both;
-
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0%;
-    background-color: gray;
+    background-color:#666666;
     color:whitesmoke;
     position: relative;
     bottom: 0%;
