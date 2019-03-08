@@ -1,3 +1,4 @@
+/* Main page setting */
 body {
     padding:0;
     margin:0;
@@ -6,10 +7,12 @@ body {
     
 }
 
+/* Header setting - clears out background */
 header {
     background: white;
 }
 
+/* H1 setting */
 h1 {
     background-color:#4aaaa5;
     border:#cccccc;
@@ -24,7 +27,7 @@ h1 {
     font: 30px;
 }
 
-
+/* Sets the horizontal line below the heading */
 .header-line {
     width:100%;
     height:2px; 
@@ -64,7 +67,7 @@ nav {
     }
 
 .boxed {
-    border: 1px solid grey ;
+    border: 1px solid #dddddd ;
     margin-right: 140px;
     margin-left: 120px;
     margin-top: 30px;
@@ -107,6 +110,7 @@ p {
 
 form{
     margin-left:20px;
+
 }
 
 input {
@@ -121,10 +125,20 @@ input[type=text] {
   box-sizing: border-box;
 }
 
+/* textarea {
+    height: 150px;
+    border-radius: 4px;
+} */
+input#message {
+    padding: 50px 20px;
+}
+
+
 input[type=text]:focus {
     background-color: lightblue;
   }
-  
+
+
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background:rgb(11, 165, 165); 
