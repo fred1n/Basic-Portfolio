@@ -6,8 +6,11 @@ body {
     
 }
 
+header {
+    background: white;
+}
+
 h1 {
-   /* background: white; */
     background-color:#4aaaa5;
     border:#cccccc;
     color: #fff;
@@ -20,6 +23,7 @@ h1 {
     margin-bottom: 0%;
     font: 30px;
 }
+
 
 .header-line {
     width:100%;
